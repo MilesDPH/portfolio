@@ -6,7 +6,6 @@ import { PROCESS_STEPS } from '~/constants/process'
   <SectionWrapper
     id="proceso"
     title="Cómo trabajo"
-    subtitle="No es filosofía de empresa — son respuestas directas a lo que los clientes preguntan antes de contratar a alguien."
     :dark="true"
   >
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
