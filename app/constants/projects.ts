@@ -2,36 +2,46 @@ import type { Project } from '~/types'
 
 export const PROJECTS: Project[] = [
   {
-    id: 'tienda-computo',
-    title: 'Tienda en línea — Productos de cómputo',
+    id: 'bigauto',
+    title: 'BigAuto: eCommerce y gestión de MercadoLibre',
+    category: 'eCommerce + Marketplace',
+    problem:
+      'BigAuto necesitaba vender en dos lugares al mismo tiempo: su tienda propia y MercadoLibre. El reto real era que el catálogo de autopartes es grande y los dos canales tienen lógicas completamente distintas.',
+    solution:
+      'Tienda en línea con Laravel y Vue, integración con la API de MercadoLibre usando Laravel Horizon para manejar la cola de actualizaciones, y Django para el backend de gestión interna. El inventario se actualiza en ambos canales desde un solo lugar. En MercadoLibre se trabajó el posicionamiento de los listings: títulos con los términos que la gente busca, categorías correctas, fichas técnicas completas, que es lo que el algoritmo de ML usa para decidir qué aparece primero.',
+    technologies: ['Laravel', 'Vue', 'Django', 'Laravel Horizon', 'MercadoLibre API', 'PostgreSQL'],
+    featured: true,
+  },
+  {
+    id: 'especialidades-graficas',
+    title: 'Especialidades Gráficas: tienda con catálogo masivo',
     category: 'eCommerce',
     problem:
-      'El negocio necesitaba una tienda en línea funcional con capacidad de medir el comportamiento de compradores y recuperar ventas perdidas, además de sentar las bases para campañas de publicidad pagada.',
+      'La conversación inicial fue sobre cuántos productos caben en WooCommerce antes de que todo empiece a ir lento. Especialidades Gráficas tiene un catálogo enorme y necesitaba que la tienda aguantara el volumen sin degradar la experiencia de búsqueda.',
     solution:
-      'Desarrollé la tienda completa en WooCommerce: catálogo de productos (impresoras, accesorios y equipos de cómputo), checkout optimizado e integración de medios de pago. En la fase actual, estoy implementando Google Tag Manager, GA4 y Meta Pixel para conversion tracking completo, recuperación de carritos abandonados y funnel a WhatsApp. Trabajo en conjunto con un especialista en marketing para alinear la arquitectura técnica con las campañas.',
-    technologies: ['WordPress', 'WooCommerce', 'Google Tag Manager', 'GA4', 'Meta Pixel', 'PHP'],
+      'Tienda construida con Django, Vue y PostgreSQL. Catálogo estructurado en TypeScript con búsqueda funcional sobre decenas de miles de SKUs. En el lado del posicionamiento: URLs limpias por producto y categoría, títulos y descripciones pensados para reflejar cómo busca el cliente, y estructura de categorías que los motores de búsqueda pueden leer bien.',
+    technologies: ['Django', 'Vue', 'PostgreSQL', 'TypeScript'],
     featured: true,
   },
   {
-    id: 'scrapers-catalogo',
-    title: 'Integración de catálogos — Abasteo y Azerty',
-    category: 'Automatización',
+    id: 'dermaglobal',
+    title: 'Dermaglobal: tienda de cosméticos y dermatología',
+    category: 'eCommerce',
     problem:
-      'Dos distribuidores mexicanos (Abasteo y Azerty) no ofrecen API pública. Sus catálogos de miles de productos necesitaban importarse y mantenerse sincronizados automáticamente en una tienda WooCommerce.',
+      'Dermaglobal vende productos cosméticos y dermatológicos: el comprador necesita confiar en lo que va a ponerse en la piel antes de hacer clic en comprar. La tienda tenía que transmitir esa seriedad desde el primer vistazo.',
     solution:
-      'Desarrollé scrapers async en Python con manejo de encoding complejo (corrección de mojibake Latin-1/Windows-1252), circuit breakers para respetar los límites del WAF de cada sitio, descarga y almacenamiento de imágenes, y persistencia en PostgreSQL. El sistema corre de forma programada y actualiza precios y disponibilidad sin intervención manual.',
-    result: 'Miles de productos sincronizados automáticamente desde dos proveedores.',
-    technologies: ['Python', 'aiohttp', 'BeautifulSoup', 'PostgreSQL', 'asyncio'],
+      'Tienda en WooCommerce con diseño que pone la imagen del producto al frente, catálogo estructurado por categorías dermatológicas con fichas completas por producto. Pasarela de pago integrada y flujo de envíos configurado con el equipo de operaciones. El trabajo de fondo fue asegurarse de que la información del producto (la que genera confianza) estuviera presente y bien presentada en cada página.',
+    technologies: ['WordPress', 'WooCommerce', 'PHP', 'CSS', 'JavaScript'],
     featured: true,
   },
   {
-    id: 'sistema-rrhh',
-    title: 'Sistema de RRHH — RH V3',
-    category: 'Aplicación de negocio',
+    id: 'crms-erps',
+    title: 'CRMs y ERPs. seis empresas, seis industrias',
+    category: 'Sistemas a medida',
     problem:
-      'Una empresa gestionaba vacaciones, permisos y registros de recursos humanos en hojas de cálculo, con errores frecuentes y sin visibilidad en tiempo real para los managers.',
+      'Seis empresas con operaciones distintas, ninguna encajaba bien en un sistema genérico. El problema de fondo siempre es el mismo: los datos importantes viven en hojas de cálculo o en la cabeza de alguien.',
     solution:
-      'Construí un sistema web full-stack: módulo de solicitud y aprobación de vacaciones, control de permisos, dashboard de managers y reportes exportables. Backend en Django con API REST, frontend en JavaScript con interfaz clara para usuarios no técnicos.',
+      'Magnera, Especialidades Gráficas, BigAuto, TTSA, Bones y Empacadora Huerta. Cada sistema mapea los flujos reales del negocio.',
     technologies: ['Python', 'Django', 'PostgreSQL', 'JavaScript', 'REST API'],
     featured: false,
   },

@@ -2,12 +2,12 @@
 useHead({ titleTemplate: '%s' })
 
 useSeoMeta({
-  title: 'Hugo Pedroza — Desarrollador Full-Stack | Web, eCommerce y SEO',
+  title: 'Hugo Pedroza, Desarrollador Full-Stack | eCommerce, CRMs y sistemas a medida',
   description:
-    'Desarrollador full-stack en Aguascalientes, México. WordPress/WooCommerce, Django, Vue/Nuxt, SEO/SEM y mantenimiento continuo bajo esquema de iguala.',
-  ogTitle: 'Hugo Pedroza — Desarrollador Full-Stack',
+    'Desarrollador full-stack en Aguascalientes, México. eCommerce con WooCommerce, CRMs, ERPs, MercadoLibre y mantenimiento continuo.',
+  ogTitle: 'Hugo Pedroza, Desarrollador Full-Stack',
   ogDescription:
-    'Desarrollo web, eCommerce y posicionamiento SEO/SEM. Mantenimiento continuo y analítica real para negocios en México.',
+    'eCommerce, CRMs, ERPs y sistemas a medida para empresas en México. Mantenimiento continuo y soporte directo.',
   ogType: 'website',
   ogUrl: 'http://milesdph.top',
   twitterCard: 'summary_large_image',

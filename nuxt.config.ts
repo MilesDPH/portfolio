@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     url: 'http://milesdph.top',
     name: 'Hugo Pedroza — Desarrollador Full-Stack',
     description:
-      'Desarrollador full-stack en Aguascalientes, México. Especializado en WordPress/WooCommerce, Django, Vue/Nuxt, SEO/SEM y mantenimiento continuo.',
+      'Desarrollador full-stack en Aguascalientes, México. eCommerce con WooCommerce, CRMs, ERPs y sistemas a medida para empresas. Mantenimiento continuo.',
     defaultLocale: 'es-MX',
   },
 

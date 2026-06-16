@@ -14,11 +14,15 @@ export const TECH_GROUPS: TechGroup[] = [
     items: ['WordPress', 'WooCommerce', 'PHP', 'Elementor'],
   },
   {
-    category: 'SEO / Analítica',
-    items: ['Google Tag Manager', 'GA4', 'Meta Pixel', 'Search Console', 'PageSpeed / Core Web Vitals'],
+    category: 'Marketplaces',
+    items: ['MercadoLibre API', 'Gestión de publicaciones', 'Sincronización de catálogos'],
+  },
+  {
+    category: 'Medición / Marketing',
+    items: ['Google Tag Manager', 'GoHighLevel'],
   },
   {
     category: 'Otros',
-    items: ['Web scraping', 'Docker', 'Git', 'APIs externas', 'aiohttp / asyncio'],
+    items: ['Docker', 'Git', 'Web scraping', 'APIs externas', 'aiohttp / asyncio'],
   },
 ]

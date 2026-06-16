@@ -14,8 +14,8 @@ export const CV_PATH = '/cv-hugo-pedroza.pdf'
 export const CV_FILENAME = 'CV-Hugo-Pedroza.pdf'
 
 export const CONTACT = {
-  whatsapp: 'https://wa.me/524491234567',
-  email: 'vegeta.hugo@gmail.com',
+  whatsapp: 'https://wa.me/524491686761',
+  email: 'milesdeveloper@hotmail.com',
   linkedin: 'https://linkedin.com/in/hugodph',
   github: 'https://github.com/hugodph',
 }

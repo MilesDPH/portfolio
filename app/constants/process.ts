@@ -5,28 +5,28 @@ export const PROCESS_STEPS: ProcessStep[] = [
     step: 1,
     title: 'Respaldo antes de tocar',
     description:
-      'Antes de cualquier actualización, cambio de plugin o modificación de código, hago un respaldo completo y verificado. El sitio en producción nunca corre riesgo innecesario.',
+      'Regla sin excepción: primero el respaldo, después el cambio. Un solo incidente donde algo se pierde en producción cuesta más que todas las horas de precaución juntas.',
     icon: 'database',
   },
   {
     step: 2,
     title: 'Staging, no producción',
     description:
-      'Los cambios importantes se prueban en un ambiente de staging antes de llegar al sitio en vivo. Lo que el cliente aprueba es exactamente lo que se publica.',
+      'El cliente aprueba lo que va a ver en producción, no una descripción de lo que podría verse. Los cambios pasan por staging antes de llegar al sitio en vivo.',
     icon: 'desktop',
   },
   {
     step: 3,
     title: 'Comunicación directa',
     description:
-      'Reportes claros de lo que se hizo, por qué y qué sigue. Sin tecnicismos innecesarios. Disponibilidad por WhatsApp para preguntas y ajustes rápidos.',
+      'Prefiero el WhatsApp al correo formal. Lo que se hizo, en qué estado está, cuándo sigue. Si algo no se entiende, ahí estoy.',
     icon: 'chat',
   },
   {
     step: 4,
-    title: 'Esquema flexible de iguala',
+    title: 'Disponibilidad continua',
     description:
-      'El modelo de iguala mensual está diseñado para negocios que necesitan un developer disponible: mantenimiento, ajustes graduales, nuevas funciones — sin necesidad de abrir proyecto cada vez.',
+      'Los proyectos que terminan siendo buena experiencia para los dos lados suelen tener algo en común: seguimos en contacto. Conozco los sistemas y cuando algo falla puedo resolverlo sin que nadie me ponga al tanto.',
     icon: 'calendar',
   },
 ]
