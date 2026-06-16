@@ -18,6 +18,10 @@ export const TECH_GROUPS: TechGroup[] = [
     items: ['MercadoLibre API', 'Gestión de publicaciones', 'Sincronización de catálogos'],
   },
   {
+    category: 'Medición / Marketing',
+    items: ['Google Tag Manager', 'GoHighLevel'],
+  },
+  {
     category: 'Otros',
     items: ['Docker', 'Git', 'Web scraping', 'APIs externas', 'aiohttp / asyncio'],
   },

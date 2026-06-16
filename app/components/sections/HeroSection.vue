@@ -37,7 +37,7 @@ import { CV_PATH, CV_FILENAME, CONTACT } from '~/constants/nav'
         <!-- Value proposition -->
         <p class="text-lg text-slate-500 leading-relaxed mb-10 max-w-2xl">
           Tiendas en línea y sistemas internos para empresas que necesitan resultados concretos.
-          Llevo los proyectos de punto a punto y me quedo disponible cuando algo necesita ajuste.
+          Llevo los proyectos de punto a punto.
         </p>
 
         <!-- CTAs -->
@@ -67,7 +67,7 @@ import { CV_PATH, CV_FILENAME, CONTACT } from '~/constants/nav'
             <svg class="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
             </svg>
-            +6 empresas atendidas
+            +18 empresas atendidas
           </div>
           <div class="flex items-center gap-2">
             <svg class="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">

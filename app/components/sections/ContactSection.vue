@@ -105,10 +105,7 @@ const contactLinks = [
         </a>
       </div>
 
-      <!-- Closing phrase -->
-      <p class="text-center text-slate-500 text-sm mt-12">
-        Busco relaciones de largo plazo con clientes que valoran la constancia y la comunicación directa.
-      </p>
+
     </div>
   </section>
 </template>

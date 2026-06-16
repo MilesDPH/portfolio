@@ -48,7 +48,7 @@
               </div>
               <div>
                 <p class="text-sm font-semibold text-slate-800">CRMs y ERPs</p>
-                <p class="text-xs text-slate-500">6 sistemas para industrias distintas</p>
+                <p class="text-xs text-slate-500">+18 sistemas para industrias distintas</p>
               </div>
             </li>
             <li class="flex items-start gap-3">

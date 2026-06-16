@@ -16,6 +16,19 @@ export const SERVICES: Service[] = [
     icon: 'store',
   },
   {
+    id: 'seo-tecnico',
+    title: 'SEO técnico y medición',
+    description:
+      'La parte técnica que hace que tu sitio sea legible para los buscadores y que tu operación de marketing tenga dónde apoyarse. Trabajo la implementación: estructura on-page, etiquetas y herramientas de seguimiento. La estrategia de pauta la llevas tú o tu equipo; yo dejo el sitio listo para conectarla.',
+    highlights: [
+      'Estructura on-page: títulos, metaetiquetas y URLs limpias',
+      'Integración de Google Tag Manager',
+      'Implementación de GoHighLevel para gestión y seguimiento de leads',
+      'Catálogos y fichas estructurados para que los buscadores los lean bien',
+    ],
+    icon: 'chart',
+  },
+  {
     id: 'crm-erp',
     title: 'CRMs, ERPs y sistemas a medida',
     description:
