@@ -17,5 +17,5 @@ export const CONTACT = {
   whatsapp: 'https://wa.me/524491686761',
   email: 'milesdeveloper@hotmail.com',
   linkedin: 'https://linkedin.com/in/hugodph',
-  github: 'https://github.com/hugodph',
+  github: 'https://github.com/milesdph',
 }
